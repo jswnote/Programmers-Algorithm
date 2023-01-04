@@ -13,6 +13,8 @@ y,m,d = input().split('.')
 print(d,m,y,sep='-')
 '''
 
+'''
 #6020-주민등록번호
 a,b = input().split('-')
 print(a,b,sep='')
+'''
