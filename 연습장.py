@@ -1,4 +1,5 @@
 #n = list(input().split())
 #print(n)
 
-print(400%500)
+for i in range(5):
+    print(i)
