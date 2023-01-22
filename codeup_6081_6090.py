@@ -26,6 +26,15 @@ print(count)
 '''
 
 '''
+6085번 - 그림 파일 저장용량 계산하기
+a,b,c = map(int,input().split())
+
+d = a*b*c/8/1024/1024
+
+print('%.2f'%d,"MB")
+'''
+
+'''
 6087번 - 3의 배수는 통과
 a = int(input())
 for i in range(1, a+1):
