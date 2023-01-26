@@ -1,5 +1,4 @@
-'''
-6091번 - 함께 문제 푸는 날
+#6091번 - 함께 문제 푸는 날
 a,b,c = map(int,input().split())
 d = 0
 while True:
@@ -8,7 +7,6 @@ while True:
         break
     
 print(d)
-'''
 
 '''
 약수 구하기
@@ -22,9 +20,7 @@ for i in range(a):
         list.append(b)
         
 print(list)
-
 '''
-
 
     
     

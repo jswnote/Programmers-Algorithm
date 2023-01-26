@@ -8,6 +8,27 @@ c = 3.324444232
 print("%0.2f는 나도 모르고 %0.3f는 b이고 %0.2f는 c입니다"%(a,b,c))
 '''
 
+'''
 a = 10
 b = 12
 print(max(a,b))
+'''
+
+'''
+#리스트도 자동으로 형성되네
+a = input().split()
+print(a)
+print(type(a))
+'''
+
+'''
+a = input().split()
+
+print(a)
+print(type(a))
+'''
+c = []
+for i in range(23):
+    c.append(0)
+
+print(c)
