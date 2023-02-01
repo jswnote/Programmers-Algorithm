@@ -35,3 +35,20 @@ except:
 
 ```
 코드1에 에러가 발생한다면, 코드2를 실행시킵니다. 코드1에서 어떠한 에러가 발생하더라도 에러를 발생시키지않고, (즉 프로그램을 종료시키지 않고) 코드2를 실행시킵니다.
+
+
+##2차원 리스트 만들기
+```
+a = []
+m, n = map(int,input().split())
+
+for i in range(m):
+    line = []
+    for j in range(n):
+        line.append(int(input()))
+    
+    a.append(line)
+        
+        
+print(a)
+```
