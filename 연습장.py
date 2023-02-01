@@ -27,8 +27,15 @@ a = input().split()
 print(a)
 print(type(a))
 '''
-c = []
-for i in range(23):
-    c.append(0)
+a = []
+m, n = map(int,input().split())
 
-print(c)
+for i in range(m):
+    line = []
+    for j in range(n):
+        line.append(int(input()))
+    
+    a.append(line)
+        
+        
+print(a)
