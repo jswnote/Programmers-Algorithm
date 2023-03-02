@@ -13,6 +13,7 @@ N = int(input())
 plan = input().split()
 
 x, y = 1, 1
+# 행렬로 표시
 dx = [0,0,-1,1]
 dy = [-1, 1, 0,0]
 move_types = ['L','R','U','D']
@@ -30,3 +31,4 @@ for plan in plan:
         
 print(x, y)
 
+# 리스트로 저렇게 dx, dy를 나누는게 포인트
