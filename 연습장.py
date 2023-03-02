@@ -27,6 +27,7 @@ a = input().split()
 print(a)
 print(type(a))
 '''
+'''
 a = []
 m, n = map(int,input().split())
 
@@ -39,3 +40,21 @@ for i in range(m):
         
         
 print(a)
+'''
+
+'''
+plans = input().split()
+
+print(plans)
+print(type(plans))
+
+'''
+x = str(30)
+y = str(13)
+z = str(33)
+
+total = x + y + z
+print(total)
+print(len(total))
+
+print()
