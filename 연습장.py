@@ -47,10 +47,9 @@ plans = input().split()
 
 print(plans)
 print(type(plans))
-
-'''
 '''
 
+'''
 x = str(30)
 y = str(13)
 z = str(33)
