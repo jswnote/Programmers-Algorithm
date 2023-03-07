@@ -62,12 +62,12 @@ print()
 '''
 
 
-
+'''
 graph = [[],[2,3,8],[1,7],[1,4,5],[3,5],[3,4],[7],[2,6,8],[1,7]]
 
 for i in graph[1]:
     print(i)
-
+'''
 
 '''
 visited = [False] * 9
@@ -75,3 +75,18 @@ visited = [False] * 9
 print(visited)
 '''
 
+'''
+from collections import deque
+
+queue = deque([1,2,3,4,5,6,7])
+
+while queue:
+    print(queue)
+'''
+
+'''
+a = (list(map(int,input().split())))
+print(a)
+
+#한 줄만 되네.
+'''
